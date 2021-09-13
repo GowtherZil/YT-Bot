@@ -1,0 +1,30 @@
+{
+    "name":"iDownload Youtube Bot",
+    "description":"Un bot de Telegram para descargar videos de Youtube",
+    
+    "keywords":["Youtube" , "Download" ,"Telegram"],
+    
+    "repository":"https://github.com/inDemocratic/Download-Youtube-Bot-Telegram",
+    
+    "env":{
+        "TOKEN":{
+            "description":"Token de BotFather",
+            "value":"TOKEN"
+        },
+        
+        "YOUR_ID":{
+            "description":"Tu id de usuario de telegram",
+            
+            "value":"YOUR_ID"
+        }
+    },
+    
+    "buildpacks":[
+        
+        {"url":"heroku/python"}
+        
+        ],
+    
+    "stack":"heroku-20"
+    
+}
