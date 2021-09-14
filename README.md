@@ -1,4 +1,8 @@
+Canal de Telegram
+https://t.me/Yanco_Dev
 
+Creditos
+https://t.me/InDemocratichttps://t.me/InDemocratic
 
 
 <details> <summary><b>Telegram Bot</b></summary><br> <a href="http://t.me/yt148_bot" ><img alt="Telegram" src="https://img.shields.io/badge/YT-Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> </a> </details> 
@@ -15,5 +19,5 @@
 
 `YOUR_ID` Your telegram user id
 
-`YOUR_ID` Your telegram user id
+
 
