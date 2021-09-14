@@ -18,7 +18,7 @@ TOKEN = os.environ["TOKEN"]
 def  alert (Update , context):
 	
 	
-	Update.message.reply_text("🔒Este bot es de uso privado de @Yanco148.\n\nPuedes crear el tuyo propio usando el Repo que te dejare, recuerda dejarme una estrellita que no cuesta nada 👍🏻",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="💠Desarrollador💠" , url="https://t.me/Yanco_Dev")],reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="💠Repo💠" , url="https://github.com/Yanco148/YT-Bot")]]))	
+	Update.message.reply_text("🔒Este bot es de uso privado de @Yanco148.\n\nPuedes crear el tuyo propio usando el Repo que te dejare, recuerda dejarme una estrellita que no cuesta nada 👍🏻",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="💠Desarrollador💠" , url="https://t.me/Yanco_Dev")], InlineKeyboardMarkup([[InlineKeyboardButton(text="💠Repo💠" , url="https://github.com/Yanco148/YT-Bot")]]))	
 
 
 
