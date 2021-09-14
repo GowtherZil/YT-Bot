@@ -14,6 +14,8 @@ from telegram import InlineKeyboardButton , InlineKeyboardMarkup , InlineQueryRe
 
 ID_2 = int(os.environ["YOUR_ID"])
 
+YOUR_ID = int(os.environ["YOUR_ID"])
+
 TOKEN = os.environ["TOKEN"]
 
 def  alert (Update , context):
