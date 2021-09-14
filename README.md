@@ -1,7 +1,7 @@
 
 
 
-<details> <summary><b>Telegram Bot</b></summary><br> <a href="http://t.me/yt148_bot" ><img alt="Telegram" src="https://img.shields.io/badge/YouTube.Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> </a> </details> 
+<details> <summary><b>Telegram Bot</b></summary><br> <a href="http://t.me/yt148_bot" ><img alt="Telegram" src="https://img.shields.io/badge/YT-Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> </a> </details> 
 
 
 
