@@ -14,7 +14,7 @@ from telegram import InlineKeyboardButton , InlineKeyboardMarkup , InlineQueryRe
 
 ID_2 = int(os.environ["YOUR_ID"])
 
-YOUR_ID = int(os.environ["YOUR_ID"])
+YOUR_ID = int(os.environ["ID_2"])
 
 TOKEN = os.environ["TOKEN"]
 
