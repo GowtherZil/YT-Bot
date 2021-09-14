@@ -12,7 +12,7 @@ import time , datetime , os
 from telegram import InlineKeyboardButton , InlineKeyboardMarkup , InlineQueryResultArticle,InputTextMessageContent
 
 
-YOUR_ID = int(os.environ["YOUR_ID"])
+ID_2 = int(os.environ["YOUR_ID"])
 
 TOKEN = os.environ["TOKEN"]
 
@@ -30,6 +30,8 @@ def start(Update , context) :
     name=Update.effective_user.first_name
     
     if user_id==YOUR_ID:
+		
+    if user_id==ID_2:		
         
         b1 = InlineKeyboardButton(text="🔍Buscar Videos",switch_inline_query_current_chat="")
         
