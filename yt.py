@@ -12,9 +12,9 @@ import time , datetime , os
 from telegram import InlineKeyboardButton , InlineKeyboardMarkup , InlineQueryResultArticle,InputTextMessageContent
 
 
-ID_2 = int(os.environ["YOUR_ID"])
+ID_2 = int(os.environ["ID__2"])
 
-YOUR_ID = int(os.environ["ID_2"])
+YOUR_ID = int(os.environ["YOUR_ID"])
 
 TOKEN = os.environ["TOKEN"]
 
