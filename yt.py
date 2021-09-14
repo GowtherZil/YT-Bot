@@ -1,4 +1,3 @@
-
 import youtube_dl
 
 from youtubesearchpython import VideosSearch
@@ -11,8 +10,6 @@ import time , datetime , os
 
 from telegram import InlineKeyboardButton , InlineKeyboardMarkup , InlineQueryResultArticle,InputTextMessageContent
 
-
-ID_2 = int(os.environ["ID_2"])
 
 YOUR_ID = int(os.environ["YOUR_ID"])
 
@@ -31,7 +28,7 @@ def start(Update , context) :
     
     name=Update.effective_user.first_name
     
-    if user_id==YOUR_ID:		
+    if user_id==YOUR_ID:
         
         b1 = InlineKeyboardButton(text="🔍Buscar Videos",switch_inline_query_current_chat="")
         
@@ -39,26 +36,7 @@ def start(Update , context) :
     	
     else :
     	alert(Update,context)
-	
-	
-# segundo usuario	
-def start(Update , context) :
     
-    user_id=Update.effective_user.id
-    
-    name=Update.effective_user.first_name
-    
-    if user_id==ID_2:
-        
-        b1 = InlineKeyboardButton(text="🔍Buscar Videos",switch_inline_query_current_chat="")
-        
-        Update.message.reply_text(f"👋Hey {name} Bienvenido",reply_markup=InlineKeyboardMarkup ([[b1]]))
-    	
-    else :
-    	alert(Update,context)	
-    
-
-
 
 
 
